@@ -4,6 +4,8 @@ The websocket is built using the ws library, listening on port 8080 for client c
 
 For the RESTful API, the server is created using the express framework, listening on port 3000 or the one set in the environment variable. I have created an in-memory list of resources for this task. There are endpoints handling basics  requests for CRUD operations on the resources. Each request has some simple checking to prevent invalid request.
 
+<br/>
+
 **Discuss the design decisions, libraries, and frameworks used in your implementation. Explain how your servers handle different types of requests and how they could be extended or modified for additional functionality in the future.**
 
 For the websocket server, I chose to use the ws library due to its simplicity and lightweight implementation.
